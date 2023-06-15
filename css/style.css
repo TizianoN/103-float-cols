@@ -1,0 +1,65 @@
+/* # GENERICS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #0f0e17;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ddd;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px 0;
+}
+
+/* # UTILITIES */
+
+.debug {
+  border: 2px dashed white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  margin: 0 -20px;
+}
+
+.row::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.col-1-3 {
+  width: calc(100% / 3);
+  float: left;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+
+.col-1-3 img {
+  height: 150px;
+}
+
+.card {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: brown;
+}
+
+.card > * {
+  margin: 10px 0;
+}
