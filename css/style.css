@@ -17,14 +17,23 @@ body {
   text-align: center;
 }
 
-h1 {
-  margin: 50px 0;
+header.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+header h1 {
+  margin-bottom: 25px;
 }
 
 /* # UTILITIES */
 
 .debug {
   border: 2px dashed white;
+}
+
+.justify {
+  text-align: justify;
 }
 
 .container {
@@ -49,6 +58,8 @@ h1 {
   padding: 0 20px;
   margin-bottom: 50px;
 }
+
+/* # CARDS */
 
 .col-1-3 img {
   height: 150px;
